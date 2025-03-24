@@ -12,7 +12,7 @@ export default function NavBar() {
 <div>
 
 <h3 className='text-2xl  mx-2 font-light text-white '>{new Date().toUTCString().slice(0,16)}</h3>
-<h2 className='text-3xl mx-2 font-bold text-white'>Beauty-Hook</h2>
+<h2 className='text-3xl mx-2 font-bold text-white'>Grab-Food</h2>
 </div>
 
 <div className='py-3.5'>
