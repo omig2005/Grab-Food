@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:wght@300..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Replace <weight> with an actual value */
+  font-style: normal;
+}
+
+:root {
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  background-color: #fbf3d3;
+}

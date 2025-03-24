@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sticky Navbar with Stretch Effect</title>
+</head>
+<body class="h-[200vh]">
+    <!-- Navbar -->
+    <header id="navbar" class="sticky top-0 bg-white shadow-md transition-all duration-300 h-20 flex items-center px-6">
+        <h1 class="text-xl font-bold">My Navbar</h1>
+    </header>
+
+    <main class="p-6">
+        <p>Scroll down to see the effect.</p>
+    </main>
+
+    <script>
+        const navbar = document.getElementById("navbar");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add("h-16", "shadow-lg");
+                navbar.classList.remove("h-20");
+            } else {
+                navbar.classList.add("h-20");
+                navbar.classList.remove("h-16", "shadow-lg");
+            }
+        });
+    </script>
+</body>
+</html>
